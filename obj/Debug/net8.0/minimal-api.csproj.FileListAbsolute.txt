@@ -98,3 +98,16 @@ C:\Projetos\minimal-api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspac
 C:\Projetos\minimal-api\obj\Debug\net8.0\minimal-api.csproj.AssemblyReference.cache
 C:\Projetos\minimal-api\obj\Debug\net8.0\minimal-api.sourcelink.json
 C:\Projetos\minimal-api\obj\Debug\net8.0\minimal-.F3613C90.Up2Date
+C:\Projetos\minimal-api\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Projetos\minimal-api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Projetos\minimal-api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Projetos\minimal-api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Projetos\minimal-api\obj\Debug\net8.0\minimal-api.MvcApplicationPartsAssemblyInfo.cs
+C:\Projetos\minimal-api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Projetos\minimal-api\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Projetos\minimal-api\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Projetos\minimal-api\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Projetos\minimal-api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Projetos\minimal-api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Projetos\minimal-api\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Projetos\minimal-api\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
