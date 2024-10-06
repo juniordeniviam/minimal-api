@@ -1,0 +1,1 @@
+API desenvolvida utilizando a técnica de Minimals APIs para o registro de veículos, ampliando suas funcionalidades ao incorporar administradores com regras JWT. como também o Swagger adicionado para facilitar os testes de requisições, garantindo a robustez e confiabilidade do sistema que estaremos desenvolvendo.
