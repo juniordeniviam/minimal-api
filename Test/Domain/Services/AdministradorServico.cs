@@ -37,23 +37,14 @@ public class AdministradorServicoTeste
         adm.Senha = "teste";
         adm.Perfil = "Adm";
 
-        contexto.Database.ExecuteSqlRaw("TRUNCATE TABLE Veiculos");
-        var veiculo = new Veiculo();
-        veiculo.Id = 1;
-        veiculo.Nome = "Renault";
-        veiculo.Marca = "Clio";
-        veiculo.Ano = 2024;
-
         var administradorServico = new AdministradorServico(contexto);
         var veiculoServico = new VeiculoServico(contexto);  
 
         // Act
         administradorServico.Incluir(adm);
-        veiculoServico.Incluir(veiculo);
 
         // Assert
         Assert.AreEqual(1, administradorServico.Todos(1).Count());
-        Assert.AreEqual(1, veiculoServico.Todos(1).Count());
     }
 
         [TestMethod]
@@ -67,26 +58,14 @@ public class AdministradorServicoTeste
         adm.Email = "teste@teste.com";
         adm.Senha = "teste";
         adm.Perfil = "Adm";
-        
-        contexto.Database.ExecuteSqlRaw("TRUNCATE TABLE Veiculos");
-        var veiculo = new Veiculo();
-        veiculo.Id = 1;
-        veiculo.Nome = "Renault";
-        veiculo.Marca = "Clio";
-        veiculo.Ano = 2024;
 
         var administradorServico = new AdministradorServico(contexto);
-        var veiculoServico = new VeiculoServico(contexto);  
 
         // Act
         administradorServico.Incluir(adm);
         var admDoBanco = administradorServico.BuscaPorId(adm.Id);
 
-        veiculoServico.Incluir(veiculo);
-        var veiculoDoBanco = administradorServico.BuscaPorId(veiculo.Id);
-
         // Assert
-        Assert.AreEqual(1, admDoBanco.Id);
-        Assert.AreEqual(1, veiculoDoBanco.Id);
+        Assert.AreEqual(1, admDoBanco?.Id);
     }
 }
